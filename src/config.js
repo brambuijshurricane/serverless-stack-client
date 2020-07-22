@@ -1,6 +1,7 @@
 export default {
+  MAX_ATTACHMENT_SIZE: 5000000,
   s3: {
-    REGION: "us-east-2",
+    REGION: "eu-west-2",
     BUCKET: "serverless-notes-demo-app-uploads"
   },
   apiGateway: {
